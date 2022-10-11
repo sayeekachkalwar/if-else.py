@@ -1,0 +1,22 @@
+# a=int(input("enter the number"))
+# b=int(input("enter the number"))
+# c=int(input("enter the number"))
+# if a<b and a>c or a>b and a<c:
+#     print(a,"is middle")
+# elif b<a and b>c or b>a and b<c:
+#     print(b,"is middle")
+# else:
+#     print(c,"is middle")
+    
+    
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=int(input("enter the number"))
+if a>b and a<c or a<b and a>c:
+    print(a,"is median")
+elif b>a and b<c or b<a and b>c:
+    print(b,"is median")
+elif c>a and c<b or c<a and c>b:
+    print(c,"is median")
+else:
+    print("give correct output")

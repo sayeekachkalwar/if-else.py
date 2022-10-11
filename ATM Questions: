@@ -1,0 +1,28 @@
+print("welcome to sayee in RBI bank")
+print("swipe your code")
+language=input("enter the language")
+ATM=input("enter your pin")
+amount=20000
+if ATM=="9021":
+    print("choose your transaction")
+    print("1.balance enquiry")
+    print("2.withdrawal")
+    print("3.deposite")
+    print("4.change your pin")
+    print("5.exit")
+    transaction=input("enter your transaction")
+    if transaction=="balance enquiry":
+        swipe=input("do you want swipe!")
+        if swipe=="yes":
+            print("your balance id",amount)
+        else:
+            print("something is wrong")
+    elif transaction=="withdrawal":
+        withdrawal=int(input("enter your money for withdrawal"))
+        if amount>withdrawal:
+            total_amount=amount-withdrawal
+            print("collect your amount")
+            print("your amount now",total_amount)
+        else:
+            print("insuficiant balance")
+            

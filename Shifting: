@@ -1,0 +1,9 @@
+a=int(input("enter the no. of girls"))
+b=int(input("enter the no. of beds"))
+if a>b:
+    print(a-b,"girls shift to another room")
+elif a<b:
+    print(b-a,"bed left")
+else:
+    print("sufficient no. one shift")
+    

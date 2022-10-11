@@ -1,0 +1,24 @@
+a=input("enter a counter name")
+b=int (input("enter a age"))
+c=input("enter a gender")
+if a=="india":
+    if b==18:
+        if c=="male" or c=="female":
+            print("you can stand for politics")
+        else:
+            print("wrong")
+elif a=="america":
+    if b==35:
+        if c=="male" or c=="female":
+            print("you should live in india")
+        else:
+            print("don't live in india")
+elif a=="russia":
+    if b==40:
+        if c=="male" or c=="female":
+            print("your friend of india")
+        else:
+            print("not the friend of india")
+else:
+    print("welcome to india")
+    

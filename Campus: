@@ -1,0 +1,25 @@
+age=int(input("enter a no"))
+gender=input("ente gender")
+
+if age==18:
+    if gender=="male":
+        print("dharmashala campus")
+    else:("go to another campus")
+if age<=18:
+    if gender=="female":
+        print("pune campus")
+    else:
+        print("go to another campus")
+if age>18 and age<25:
+    if gender=="female":
+        print("Bangalore campus") 
+    else:
+        print("go to another campus")
+if age>25:
+    if gender=="female":
+        print("sarjapura campus")
+    else:
+        print("go to another campus")
+else:
+    print("join in navgurukul")
+    

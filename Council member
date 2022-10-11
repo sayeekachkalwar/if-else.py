@@ -1,0 +1,16 @@
+a=input("enter the council member:----")
+if a in ("Neha" "Salu"):
+    print("a is Disco in bangalore campus")
+elif a in ("Nagmani" "Wannoa"):
+    print("a is FM in bangalore campus")
+elif a in ("Onring" "Asama"):
+    print("a is FC in bangalore campus")
+elif a in ("Swathi" "Anshika"):
+    print("a is TMP in bangalore campus")
+elif a in ("Tarun" "Gurpreet"):
+    print("a is CM in bangalore campus")
+elif a in ("Samyukta"):
+    print("a is PM in bangalore campus")
+else:
+    print("a is not a council member in banglore campus")
+    

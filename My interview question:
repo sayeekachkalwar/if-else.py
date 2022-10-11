@@ -1,0 +1,12 @@
+num_1=int(input("enter the number"))
+if num_1%2==0:
+    even=num_1-2
+    new=even-2
+    print(even,new,"even number")
+elif num_1%2!=0:
+    odd=num_1+2
+    sum=odd+2
+    print(odd,sum,"odd number")
+else:
+    print("enter valid number")
+    
